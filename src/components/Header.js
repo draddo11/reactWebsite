@@ -4,10 +4,10 @@ import Icons from '../components/Icons'
 
 
 const icons =[
-	{to:'/#', icon: 'ti-twitter'},
-	{to:'/#', icon: 'ti-facebook'},
-	{to:'/#', icon: 'ti-instagram'},
-	{to:'/#', icon: 'ti-linkedin'}
+	{href:'https://twitter.com/mikelasamoah', icon: 'ti-twitter'},
+	{href:'linkedin.com/in/asamoahmichael', icon: 'ti-linkedin'},
+	{href:'/#', icon: 'ti-instagram'},
+	{href:'/#', icon: 'ti-facebook'}
 ]
 
 class Header extends Component {
@@ -35,7 +35,7 @@ class Header extends Component {
 						</div>
 						<div className="col-lg-4">
 							<div className="home_right_img">
-								<img className="img-fluid" src={this.props.image} alt="" />
+								<img className="img-fluid" src={this.props.image} alt="" style={{marginBottom:'10px'}} />
 							</div>
 						</div>
 					</div>

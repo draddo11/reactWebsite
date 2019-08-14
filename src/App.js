@@ -3,8 +3,6 @@ import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
 import PageWrapper from '../src/components/PageWrapper'
 import Banner from './components/Home'
 import About from '../src/components/pages/About.js'
-import Stats from '../src/components/pages/Stats.js'
-import Header from '../src/components/Header'
 function App() {
   return (
     <div>

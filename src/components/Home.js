@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Header from './Header'
 import Stats from './pages/Stats';
-import image from '../assets/img/banner/home-right.png'
+import image from '../assets/img/mike.png'
 
 class Banner extends Component{
     

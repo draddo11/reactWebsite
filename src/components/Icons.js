@@ -5,7 +5,7 @@ class Icons extends Component{
 
     render(){
         return(
-			<Link to={this.props.to}><i className={`${this.props.icon}`}></i></Link>
+			<a href={this.props.href}><i className={`${this.props.icon}`}></i></a>
         )   
     }
 }
